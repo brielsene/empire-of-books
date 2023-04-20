@@ -1,0 +1,38 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Estilo para os títulos da página */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilo para os parágrafos da página */
+p {
+    margin-bottom: 10px;
+}
+
+/* Estilo para a lista de livros */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo para cada item da lista de livros */
+li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Estilo para os títulos dos livros */
+li h3 {
+    color: #0066cc;
+}
+
+/* Estilo para as descrições dos livros */
+li p {
+    color: #666;
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <!-- Cabeçalho da página -->
+</head>
+<body>
+<h1>Informações da Loja</h1>
+<p>ID: <span th:text="${loja.id}"></span></p>
+<p>Nome da Unidade: <span th:text="${loja.nomeUnidade}"></span></p>
+<!-- Exiba os outros atributos do objeto loja da mesma forma -->
+
+<h2>Livros Disponíveis</h2>
+<ul>
+  <!-- Itere sobre a lista de livros da loja -->
+  <li th:each="livro : ${loja.livros}">
+    <h3 th:text="${livro.nome}"></h3>
+<!--    <p>Autor: <span th:text="${livro.autor}"></span></p>-->
+<!--    <p>Ano de Publicação: <span th:text="${livro.anoPublicacao}"></span></p>-->
+    <!-- Exiba os outros atributos do objeto livro da mesma forma -->
+  </li>
+</ul>
+</body>
+</html>
